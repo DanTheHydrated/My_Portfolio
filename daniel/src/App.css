@@ -1,0 +1,9 @@
+.Hero-image {
+  width: 250px;
+  height: 250px;
+
+  background-size: cover;
+  display: block;
+border-radius: 125px;
+
+ }
