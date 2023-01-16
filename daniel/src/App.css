@@ -21,12 +21,52 @@ body {
     }
 }
 
+/* animated background^ */
+
+* {
+    text-align: center;
+}
+
 .Hero-image {
-  width: 300px;
-  height: 300px;
-  background-size: cover;
-  display: block;
-  border-radius: 150px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    display: block;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Hobbies {
+    width: 300px;
+    color: #B6C7D6;
+    background-color: black;
+    background: local;
+    padding: 50px;
+    margin: 20px;
+    display: flex;
+    height: 100vh;
+}
+
+/* .MOON {
+    width: 756px;
+    height: 1008px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+    flex: 1;
+    height: 100%;
+} */
+
+.side-moon {
+    width: 400px; 
+    margin: auto; 
+    text-align: center;
+    
+    /* Optional Styling */
+    padding: 20px;
+    border-style: solid;
+    border-color: #B6C7D6;
+    border-radius: 20px;
+    background-color: #000000;
 }
