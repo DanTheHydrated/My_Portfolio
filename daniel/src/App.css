@@ -48,15 +48,19 @@ body {
     height: 100vh;
 }
 
-/* .MOON {
-    width: 756px;
-    height: 1008px;
-    background-repeat: no-repeat;
-    background-position: left top;
+.MOON {
+    /* width: 756px;
+    height: 1008px; */
+    /* background-repeat: no-repeat;
+    background-position: left top; */
     background-size: 100% 100%;
-    flex: 1;
+    /* flex: 1; */
     height: 100%;
-} */
+}
+
+.moon-bar {
+    background-color: #000000;
+}
 
 .side-moon {
     width: 400px; 
