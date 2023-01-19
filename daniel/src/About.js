@@ -15,7 +15,7 @@ export default function About() {
             <div className="row justify-content-center">
                 <div className='col-4'>
                     <h3> Some Projects! </h3>
-                    <div className="card">
+                    <div className="card h-250">
                         <img src={GitHub} className="card-img-top" alt="Github profile Page" />
                         <div className="card-body">
                             <h5 className="card-title">Evercraft</h5>
@@ -25,7 +25,7 @@ export default function About() {
                     </div>
                     </div>
                     <div className='col-4'>
-                    <div className="card">
+                    <div className="card h-250">
                         <img src={Danstagram} className="card-img-top" alt="Danstagram profile" />
                         <div className="card-body">
                             <h5 className="card-title">Danstagram </h5>
@@ -35,7 +35,7 @@ export default function About() {
                     </div>
                     </div>
                     <div className='col-4'>
-                    <div className="card">
+                    <div className="card h-250">
                         <img src={GitHub} className="card-img-top" alt="Github profile Page" />
                         <div className="card-body">
                             <h5 className="card-title">Tic-Tac-Toe</h5>
