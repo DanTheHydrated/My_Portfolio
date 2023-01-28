@@ -50,12 +50,12 @@ export default function About() {
                 </div>
             </div>
             <div className="row justify-content-center moon-bar">
-                <div className='col-sm-12 col-6'>
-                    <img src={Moon} alt='Photo of the moon I took' className='img-fluid float-start MOON' width='300' height='600' />
+                <div className='col-sm-12 col-md-6'>
+                    <img src={Moon} alt='Photo of the moon I took' className='img-responsive'/>
                 </div>
-                <div className='col-sm-12 col-6'>
+                <div className='col-sm-12 col-md-6'>
                     <h3 className='side-moon float-end'> My Hobbies!
-                        <p> One of my favorite hobbies is Star Gazing! I love looking through my Telescope and viewing our Universe, I even took the photo to the Right!  </p>
+                        <p> One of my favorite hobbies is Star Gazing! I love looking through my Telescope and viewing our Universe, I even took the photo to the left!  </p>
                     </h3>
                 </div>
             </div>
