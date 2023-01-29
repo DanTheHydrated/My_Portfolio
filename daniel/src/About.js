@@ -49,7 +49,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center moon-bar">
+            {/* <div className="row justify-content-center moon-bar">
                 <div className='col-sm-12 col-md-6'>
                     <img src={Moon} alt='Photo of the moon I took' className='img-responsive'/>
                 </div>
@@ -58,7 +58,7 @@ export default function About() {
                         <p> One of my favorite hobbies is Star Gazing! I love looking through my Telescope and viewing our Universe, I even took the photo to the left!  </p>
                     </h3>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
