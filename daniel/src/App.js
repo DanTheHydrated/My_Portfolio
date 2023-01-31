@@ -1,8 +1,7 @@
 import './App.css';
 import Hero from './Hero';
 import About from './About'
-// import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/js/bootstrap.js';
+import Contact from './Conntact';
 
 
 
@@ -11,6 +10,7 @@ function App() {
     <>
       <Hero />
       <About />
+      <Contact />
     </>
   );
 }

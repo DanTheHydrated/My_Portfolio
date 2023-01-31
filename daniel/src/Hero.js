@@ -4,11 +4,15 @@ import Logo from './images/1664223925.901021-04F686CA-DB5B-4CE5-878D-74F6E728112
 
 export default function Hero() {
     return (
-        <div className='Hero'>
-            <img className='Hero-image' src={Dan} alt="an Image of me!" 
-            onMouseOver={e => e.currentTarget.src = Logo}
-            onMouseOut={e => e.currentTarget.src = Dan}
-            />
+        <div className='container Hero'>
+            <div className='row heroRow'>
+                <div className='col'>
+                    <img className='Hero-image' src={Dan} alt="an Image of me!"
+                        onMouseOver={e => e.currentTarget.src = Logo}
+                        onMouseOut={e => e.currentTarget.src = Dan}
+                    />
+                </div>
+            </div>
             <h1> Hi, Im Daniel Winn! </h1>
             <h3> I'm a Full Stack Developer!</h3>
         </div>

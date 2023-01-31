@@ -5,14 +5,14 @@ import Danstagram from './images/Screen Shot 2022-12-14 at 10.29.08 AM.jpg'
 
 export default function About() {
     return(
-        <div className="container-grid">
+        <div className="container-grid about">
             <div className='row justify-content-center'>
                 <div className='col-6'>
                     <h1> About me! </h1>
                     <p> I went to school at Eastern Kentucky University for medical Laboratory Sciences, but I realized that feild wasn't for me. I then attended awesome Inc. where I made a project every week for a tottal of three months! I've always loved making things and the Awesome Inc. program helped me realize how I can create things with code!</p>
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row justify-content-center ">
                 <div className='col-6 justify-content-center'>
                     <h3> Some Projects! </h3>
                 </div>
