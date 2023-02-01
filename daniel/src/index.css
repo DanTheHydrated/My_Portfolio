@@ -11,5 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.Hero {
+  height: 100vh;
+}
+
+.heroRow {
+  padding-top: 25vh;
+}
+
+.about {
+  background-color: rgb(98, 106, 113);
+}
+
+.contacts {
+  margin-bottom: 25px;
+}
 
 
