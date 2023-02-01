@@ -1,4 +1,4 @@
-import Moon from './images/Moon.jpg'
+import React from 'react'
 import GitHub from './images/Screen Shot 2023-01-17 at 2.31.08 PM.png'
 import Danstagram from './images/Screen Shot 2022-12-14 at 10.29.08 AM.jpg'
 
